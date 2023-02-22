@@ -13,6 +13,7 @@ def detect_dir(dir_path):
 
 if __name__ == '__main__':
     res=detect_pic(r'E:\毕业设计\task\PaddleOCR-release-2.4\data\1.png')
+
     box=list()  # 数字方框
     characters=list()  #数字信息以及其置信度
     for line in res:
